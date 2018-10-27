@@ -2,5 +2,5 @@
 
 Steps to run:-
 1) git clone the project
-2) cd demo-react-app
+2) cd reactjsfeedapp
 3) Run npm start
