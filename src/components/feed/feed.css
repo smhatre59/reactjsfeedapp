@@ -1,0 +1,171 @@
+
+/*
+Header csss
+*/
+nav
+{
+    background-color:transparent!important;
+}
+.navbar ul li a
+{
+    font-weight: bold;
+    color: white;
+    text-decoration:none;
+    border-bottom:none;
+}
+.navbar
+{
+    background-color: #6acd79;
+    /* background-image: linear-gradient(to bottom, white, #6acd79); */
+    box-shadow: 0 0.1px 7px #0000003d;
+    position: relative;
+}
+.stickyHeader
+{
+    width:100%;
+    text-align: center;
+    position: fixed;
+  top: 0;
+}
+.navbar ul
+{
+    display: inline-flex;
+    margin:0;
+}
+.navbar ul li
+{
+    padding:10px 69px;
+    list-style:none;
+    text-transform: uppercase;
+}
+.navbar ul li:hover{
+    background: #63bd6f;
+    transition: 0.4s ease-in-out;
+}
+.navbar ul li:hover a
+{
+}
+.header-text h2
+{
+    margin:0 0 20px;
+    width:100%;
+    font-size: 35px;
+}
+.header-text
+{
+    background-color: black;
+    width: 100%;
+    float: left;
+    padding: 40px 40px;
+}
+.header-text p
+{
+    font-size:16px;
+    line-height:30px;
+}
+
+.logoutButton {
+    display: inline-block;
+    float: right;
+    padding: 10px;
+    width: 100px;
+    margin: 4px;
+    height: 10px;
+    /* background: #6acd79; */
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    text-align: center;
+    line-height: 10px;
+}
+.logoutButton a {
+    font-weight: bold;
+    color: white;
+    text-decoration:none;
+    border-bottom:none;
+
+}
+
+.feedContainer {
+    margin-top : 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+    overflow-y: scroll;
+}
+.userCardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 150px;
+    width: 400px;
+    min-height: 150px;
+    margin: 10px;
+    border-radius: 7px;
+    /* border: 2px solid gray; */
+    padding: 10px;
+    box-shadow: 0px 0px 33px -1px rgba(0, 0, 0, 0.15);
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userImageContainer {
+    height: 100%;
+    width: 100px;
+}
+.userImage {
+    background: #6acd79;
+    color: #fff;
+    z-index: 11;
+    padding: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    position: relative;
+    /* pointer-events: none; */
+    -webkit-transform: translateX(-50%);
+    /* transform: translateX(-50%); */
+    left: 40%;
+    /* margin-top: .4em; */
+    font-size: 4em;
+}
+.userDummyImage {
+    font-size: 20px;
+    font-weight: bold;
+}
+.userDetails {
+    width: 290px;
+    margin-left: 10px;  
+}
+.userName{
+    font-weight: bold;
+    font-size: 20px;
+}
+.otherText {
+    font-size: 14px;
+}
+.header {
+    position: fixed;
+    height: 50px;
+    width: 100vw;
+    background-color: salmon; 
+    display: flex; 
+}
+
+.title {
+    width: 90%;
+}
+
+.rightContainer {
+    width: 10%;
+}
+.footer {
+    min-height: 20px;
+    width: 100vw;
+    background-color: salmon;  
+}
